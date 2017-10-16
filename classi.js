@@ -71,6 +71,24 @@ class Lettera {
             return false;
         }
     }
+
+    static isDittongo(testo) {
+        let L = new Lettera();
+        if (L.dittongo.indexOf(testo) != -1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    static isTrittongo(testo) {
+        let L = new Lettera();
+        if (L.trittongo.indexOf(testo) != -1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
 
 class Sillabazione {
@@ -115,6 +133,9 @@ class Sillabazione {
 
     sillaba() {
         for (let c = 0; c < this.testo.length; c++) {
+
+            // dove c'è una vocale controllare anche dittonghi e trittonghi
+
             // regola 1
             if (c == 0) {
                 if (Lettera.isVocale(this.testo[c]) && Lettera.isConsonante(this.testo[c + 1])) {
@@ -133,6 +154,31 @@ class Sillabazione {
                 Lettera.isGruppiConsonantici(this.testo[c] + this.testo[c + 1])) {
                 this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
                 c += 2;
+            }
+            // regola 4
+            if (Lettera.isDittongo(this.testo[c] + this.testo[c + 1])) {
+                this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
+                c += 1;
+            }
+            // regola 5
+            if (Lettera.isTrittongo(this.testo[c] + this.testo[c + 1] + +this.testo[c + 2])) {
+                this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                c += 2;
+            }
+            // regola 6.1
+            if ((this.testo[c] == "s" || this.testo[c] == "S") &&
+                Lettera.isConsonante(this.testo[c + 1]) &&
+                Lettera.isVocale(this.testo[c + 2])) {
+                this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                c += 2;
+            }
+            // regola 6.2
+            if ((this.testo[c] == "s" || this.testo[c] == "S") &&
+                Lettera.isConsonante(this.testo[c + 1]) &&
+                Lettera.isConsonante(this.testo[c + 2]) &&
+                Lettera.isVocale(this.testo[c + 3])) {
+                this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                c += 3;
             }
         }
         return this.listaSillabe;

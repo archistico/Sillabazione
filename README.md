@@ -7,6 +7,7 @@
 
 Test divisione parole: OK
 
+
 Test sillabazione: tavolo -> OK
 
 Test sillabazione: luce -> OK
@@ -19,107 +20,63 @@ Test sillabazione: odore -> OK
 
 Test sillabazione: uno -> OK
 
-Test sillabazione: atletica -> ERRORE
+Test sillabazione: atletica -> OK
 
-Atteso___: a|tle|ti|ca
-
-Risultato: a|le|ti|ca
-
-Test sillabazione: biblico -> ERRORE
-
-Atteso___: bi|bli|co
-
-Risultato: bi|li|co
+Test sillabazione: biblico -> OK
 
 Test sillabazione: inclinato -> ERRORE
 
 Atteso___: in|cli|na|to
 
-Risultato: i|li|na|to
+Risultato: i|cli|na|to
 
-Test sillabazione: brodo -> ERRORE
+Test sillabazione: brodo -> OK
 
-Atteso___: bro|do
-
-Risultato: ro|do
-
-Test sillabazione: credere -> ERRORE
-
-Atteso___: cre|de|re
-
-Risultato: re|de|re
+Test sillabazione: credere -> OK
 
 Test sillabazione: dromedario -> ERRORE
 
 Atteso___: dro|me|da|rio
 
-Risultato: ro|me|da|ri
+Risultato: dro|me|da|ri|io
 
-Test sillabazione: flebile -> ERRORE
+Test sillabazione: flebile -> OK
 
-Atteso___: fle|bi|le
-
-Risultato: le|bi|le
-
-Test sillabazione: africano -> ERRORE
-
-Atteso___: a|fri|ca|no
-
-Risultato: a|ri|ca|no
+Test sillabazione: africano -> OK
 
 Test sillabazione: gladiolo -> ERRORE
 
 Atteso___: gla|di|o|lo
 
-Risultato: la|di|lo
+Risultato: gla|di|io|lo
 
-Test sillabazione: prego -> ERRORE
+Test sillabazione: prego -> OK
 
-Atteso___: pre|go
+Test sillabazione: treno -> OK
 
-Risultato: re|go
+Test sillabazione: ostracismo -> OK
 
-Test sillabazione: treno -> ERRORE
-
-Atteso___: tre|no
-
-Risultato: re|no
-
-Test sillabazione: ostracismo -> ERRORE
-
-Atteso___: o|stra|ci|smo
-
-Risultato: o|ra|ci|mo
-
-Test sillabazione: costola -> ERRORE
-
-Atteso___: co|sto|la
-
-Risultato: co|to|la
+Test sillabazione: costola -> OK
 
 Test sillabazione: scoiattolo -> ERRORE
 
 Atteso___: sco|iat|to|lo
 
-Risultato: co|to|lo
+Risultato: sco|ia|to|lo
 
 Test sillabazione: costruire -> ERRORE
 
 Atteso___: co|stru|i|re
 
-Risultato: co|ru|re
+Risultato: co|stru|re
 
-Test sillabazione: caspita -> ERRORE
-
-Atteso___: ca|spi|ta
-
-Risultato: ca|pi|ta
+Test sillabazione: caspita -> OK
 
 Test sillabazione: striscione -> ERRORE
 
 Atteso___: stri|scio|ne
 
-Risultato: ri|ci|ne
+Risultato: stri|sci|ne
 
 Test sillabazione: tetto -> ERRORE
 
@@ -131,13 +88,13 @@ Test sillabazione: acqua -> ERRORE
 
 Atteso___: ac|qua
 
-Risultato: a|qu
+Risultato: a|qu|ua
 
 Test sillabazione: risciacquo -> ERRORE
 
 Atteso___: ri|sciac|quo
 
-Risultato: ri|ci|qu
+Risultato: ri|sci|qu|uo
 
 Test sillabazione: calma -> ERRORE
 
@@ -167,157 +124,153 @@ Test sillabazione: controllo -> ERRORE
 
 Atteso___: con|trol|lo
 
-Risultato: co|ro|lo
+Risultato: co|tro|lo
 
 Test sillabazione: ventricolo -> ERRORE
 
 Atteso___: ven|tri|co|lo
 
-Risultato: ve|ri|co|lo
+Risultato: ve|tri|co|lo
 
 Test sillabazione: scaltro -> ERRORE
 
 Atteso___: scal|tro
 
-Risultato: ca|ro
+Risultato: sca|tro
 
 Test sillabazione: interstizio -> ERRORE
 
 Atteso___: in|ter|sti|zio
 
-Risultato: i|te|ti|zi
+Risultato: i|te|sti|zi|io
 
-Test sillabazione: auguri -> ERRORE
-
-Atteso___: au|gu|ri
-
-Risultato: gu|ri
+Test sillabazione: auguri -> OK
 
 Test sillabazione: viola -> ERRORE
 
 Atteso___: vio|la
 
-Risultato: vi|la
+Risultato: vi|io|la
 
 Test sillabazione: indiano -> ERRORE
 
 Atteso___: in|dia|no
 
-Risultato: i|di|no
+Risultato: i|di|ia|no
 
 Test sillabazione: lingua -> ERRORE
 
 Atteso___: lin|gua
 
-Risultato: li|gu
+Risultato: li|gu|ua
 
 Test sillabazione: questo -> ERRORE
 
 Atteso___: que|sto
 
-Risultato: qu|to
+Risultato: qu|ue|sto
 
 Test sillabazione: zaino -> ERRORE
 
 Atteso___: zai|no
 
-Risultato: za|no
+Risultato: za|ai|no
 
 Test sillabazione: piacque -> ERRORE
 
 Atteso___: piac|que
 
-Risultato: pi|qu
+Risultato: pi|ia|qu|ue
 
 Test sillabazione: pieno -> ERRORE
 
 Atteso___: pie|no
 
-Risultato: pi|no
+Risultato: pi|ie|no
 
 Test sillabazione: sedie -> ERRORE
 
 Atteso___: se|die
 
-Risultato: se|di
+Risultato: se|di|ie
 
 Test sillabazione: rauco -> ERRORE
 
 Atteso___: rau|co
 
-Risultato: ra|co
+Risultato: ra|au|co
 
 Test sillabazione: occhiali -> ERRORE
 
 Atteso___: oc|chia|li
 
-Risultato: o|hi|li
+Risultato: o|hi|ia|li
 
 Test sillabazione: materiale -> ERRORE
 
 Atteso___: ma|te|ria|le
 
-Risultato: ma|te|ri|le
+Risultato: ma|te|ri|ia|le
 
 Test sillabazione: pinguino -> ERRORE
 
 Atteso___: pin|gui|no
 
-Risultato: pi|gu|no
+Risultato: pi|gu|ui|no
 
 Test sillabazione: buono -> ERRORE
 
 Atteso___: buo|no
 
-Risultato: bu|no
+Risultato: bu|uo|no
 
 Test sillabazione: foiba -> ERRORE
 
 Atteso___: foi|ba
 
-Risultato: fo|ba
+Risultato: fo|oi|ba
 
 Test sillabazione: piuma -> ERRORE
 
 Atteso___: piu|ma
 
-Risultato: pi|ma
+Risultato: pi|iu|ma
 
 Test sillabazione: maiale -> ERRORE
 
 Atteso___: ma|ia|le
 
-Risultato: ma|le
+Risultato: ma|ai|le
 
 Test sillabazione: centinaio -> ERRORE
 
 Atteso___: cen|ti|na|io
 
-Risultato: ce|ti|na
+Risultato: ce|ti|na|ai
 
 Test sillabazione: aiutare -> ERRORE
 
 Atteso___: a|iu|ta|re
 
-Risultato: ta|re
+Risultato: ai|ta|re
 
 Test sillabazione: paiolo -> ERRORE
 
 Atteso___: pa|io|lo
 
-Risultato: pa|lo
+Risultato: pa|ai|lo
 
 Test sillabazione: maestra -> ERRORE
 
 Atteso___: ma|e|stra
 
-Risultato: ma|ra
+Risultato: ma|stra
 
 Test sillabazione: aeroplano -> ERRORE
 
 Atteso___: a|e|ro|pla|no
 
-Risultato: ro|la|no
+Risultato: ro|pla|no
 
 Test sillabazione: poeta -> ERRORE
 
@@ -329,10 +282,52 @@ Test sillabazione: paesaggio -> ERRORE
 
 Atteso___: pa|e|sag|gio
 
-Risultato: pa|sa|gi
+Risultato: pa|sa|gi|io
 
 Test sillabazione: aiuola -> ERRORE
 
 Atteso___: a|iuo|la
 
-Risultato: la
+Risultato: ai|uo|la
+
+Test sillabazione: oltranzista -> ERRORE
+
+Atteso___: ol|tran|zi|sta
+
+Risultato: o|tra|zi|sta
+
+Test sillabazione: soppressata -> ERRORE
+
+Atteso___: sop|pres|sa|ta
+
+Risultato: so|pre|ssa|ta
+
+Test sillabazione: erba -> ERRORE
+
+Atteso___: er|ba
+
+Risultato: e|ba
+
+Test sillabazione: stanco -> ERRORE
+
+Atteso___: stan|co
+
+Risultato: sta|co
+
+Test sillabazione: chiaro -> ERRORE
+
+Atteso___: chia|ro
+
+Risultato: hi|ia|ro
+
+Test sillabazione: luglio -> ERRORE
+
+Atteso___: lu|glio
+
+Risultato: lu|gli|io
+
+Test sillabazione: schiavo -> ERRORE
+
+Atteso___: schia|vo
+
+Risultato: schi|vo
