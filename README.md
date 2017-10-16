@@ -1,12 +1,13 @@
 
 # Sillabazione
 
-## License MIT
+### License MIT
 
-## arch. Emilie Rollandin
+### arch. Emilie Rollandin
+
+Test passati: 52/67
 
 Test divisione parole: OK
-
 
 Test sillabazione: tavolo -> OK
 
@@ -24,31 +25,27 @@ Test sillabazione: atletica -> OK
 
 Test sillabazione: biblico -> OK
 
-Test sillabazione: inclinato -> ERRORE
+*** Test sillabazione: inclinato -> ERRORE
 
-Atteso___: in|cli|na|to
+*** Atteso___: in|cli|na|to
 
-Risultato: i|cli|na|to
+*** Risultato: i|cli|na|to
 
 Test sillabazione: brodo -> OK
 
 Test sillabazione: credere -> OK
 
-Test sillabazione: dromedario -> ERRORE
-
-Atteso___: dro|me|da|rio
-
-Risultato: dro|me|da|ri|io
+Test sillabazione: dromedario -> OK
 
 Test sillabazione: flebile -> OK
 
 Test sillabazione: africano -> OK
 
-Test sillabazione: gladiolo -> ERRORE
+*** Test sillabazione: gladiolo -> ERRORE
 
-Atteso___: gla|di|o|lo
+*** Atteso___: gla|di|o|lo
 
-Risultato: gla|di|io|lo
+*** Risultato: gla|dio|lo
 
 Test sillabazione: prego -> OK
 
@@ -58,276 +55,148 @@ Test sillabazione: ostracismo -> OK
 
 Test sillabazione: costola -> OK
 
-Test sillabazione: scoiattolo -> ERRORE
+*** Test sillabazione: scoiattolo -> ERRORE
 
-Atteso___: sco|iat|to|lo
+*** Atteso___: sco|iat|to|lo
 
-Risultato: sco|ia|to|lo
+*** Risultato: scoi|at|to|lo
 
-Test sillabazione: costruire -> ERRORE
+*** Test sillabazione: costruire -> ERRORE
 
-Atteso___: co|stru|i|re
+*** Atteso___: co|stru|i|re
 
-Risultato: co|stru|re
+*** Risultato: co|strui|re
 
 Test sillabazione: caspita -> OK
 
-Test sillabazione: striscione -> ERRORE
+Test sillabazione: striscione -> OK
 
-Atteso___: stri|scio|ne
+Test sillabazione: tetto -> OK
 
-Risultato: stri|sci|ne
+Test sillabazione: acqua -> OK
 
-Test sillabazione: tetto -> ERRORE
+*** Test sillabazione: risciacquo -> ERRORE
 
-Atteso___: tet|to
+*** Atteso___: ri|sciac|quo
 
-Risultato: te|to
+*** Risultato: ri|scia|quo
 
-Test sillabazione: acqua -> ERRORE
+Test sillabazione: calma -> OK
 
-Atteso___: ac|qua
+Test sillabazione: ricerca -> OK
 
-Risultato: a|qu|ua
+Test sillabazione: tecnico -> OK
 
-Test sillabazione: risciacquo -> ERRORE
+Test sillabazione: aritmetica -> OK
 
-Atteso___: ri|sciac|quo
+Test sillabazione: controllo -> OK
 
-Risultato: ri|sci|qu|uo
+Test sillabazione: ventricolo -> OK
 
-Test sillabazione: calma -> ERRORE
+*** Test sillabazione: scaltro -> ERRORE
 
-Atteso___: cal|ma
+*** Atteso___: scal|tro
 
-Risultato: ca|ma
+*** Risultato: sca|tro
 
-Test sillabazione: ricerca -> ERRORE
+*** Test sillabazione: interstizio -> ERRORE
 
-Atteso___: ri|cer|ca
+*** Atteso___: in|ter|sti|zio
 
-Risultato: ri|ce|ca
+*** Risultato: i|ter|sti|zio
 
-Test sillabazione: tecnico -> ERRORE
+*** Test sillabazione: auguri -> ERRORE
 
-Atteso___: tec|ni|co
+*** Atteso___: au|gu|ri
 
-Risultato: te|ni|co
+*** Risultato: a|u|u|gu|ri
 
-Test sillabazione: aritmetica -> ERRORE
+Test sillabazione: viola -> OK
 
-Atteso___: a|rit|me|ti|ca
+*** Test sillabazione: indiano -> ERRORE
 
-Risultato: a|ri|me|ti|ca
+*** Atteso___: in|dia|no
 
-Test sillabazione: controllo -> ERRORE
+*** Risultato: i|dia|no
 
-Atteso___: con|trol|lo
+Test sillabazione: lingua -> OK
 
-Risultato: co|tro|lo
+Test sillabazione: questo -> OK
 
-Test sillabazione: ventricolo -> ERRORE
+Test sillabazione: zaino -> OK
 
-Atteso___: ven|tri|co|lo
+*** Test sillabazione: piacque -> ERRORE
 
-Risultato: ve|tri|co|lo
+*** Atteso___: piac|que
 
-Test sillabazione: scaltro -> ERRORE
+*** Risultato: pia|que
 
-Atteso___: scal|tro
+Test sillabazione: pieno -> OK
 
-Risultato: sca|tro
+Test sillabazione: sedie -> OK
 
-Test sillabazione: interstizio -> ERRORE
+Test sillabazione: rauco -> OK
 
-Atteso___: in|ter|sti|zio
+Test sillabazione: occhiali -> OK
 
-Risultato: i|te|sti|zi|io
+Test sillabazione: materiale -> OK
 
-Test sillabazione: auguri -> OK
+Test sillabazione: pinguino -> OK
 
-Test sillabazione: viola -> ERRORE
+Test sillabazione: buono -> OK
 
-Atteso___: vio|la
+Test sillabazione: foiba -> OK
 
-Risultato: vi|io|la
+Test sillabazione: piuma -> OK
 
-Test sillabazione: indiano -> ERRORE
+Test sillabazione: maiale -> OK
 
-Atteso___: in|dia|no
+Test sillabazione: centinaio -> OK
 
-Risultato: i|di|ia|no
+Test sillabazione: aiutare -> OK
 
-Test sillabazione: lingua -> ERRORE
+Test sillabazione: paiolo -> OK
 
-Atteso___: lin|gua
+Test sillabazione: maestra -> OK
 
-Risultato: li|gu|ua
+*** Test sillabazione: aeroplano -> ERRORE
 
-Test sillabazione: questo -> ERRORE
+*** Atteso___: a|e|ro|pla|no
 
-Atteso___: que|sto
+*** Risultato: a|e|e|ro|pla|no
 
-Risultato: qu|ue|sto
+Test sillabazione: poeta -> OK
 
-Test sillabazione: zaino -> ERRORE
+Test sillabazione: paesaggio -> OK
 
-Atteso___: zai|no
+Test sillabazione: aiuola -> OK
 
-Risultato: za|ai|no
+*** Test sillabazione: oltranzista -> ERRORE
 
-Test sillabazione: piacque -> ERRORE
+*** Atteso___: ol|tran|zi|sta
 
-Atteso___: piac|que
+*** Risultato: o|tra|zi|sta
 
-Risultato: pi|ia|qu|ue
+*** Test sillabazione: soppressata -> ERRORE
 
-Test sillabazione: pieno -> ERRORE
+*** Atteso___: sop|pres|sa|ta
 
-Atteso___: pie|no
+*** Risultato: sop|pres|ssa|ta
 
-Risultato: pi|ie|no
+*** Test sillabazione: erba -> ERRORE
 
-Test sillabazione: sedie -> ERRORE
+*** Atteso___: er|ba
 
-Atteso___: se|die
+*** Risultato: e|ba
 
-Risultato: se|di|ie
+*** Test sillabazione: stanco -> ERRORE
 
-Test sillabazione: rauco -> ERRORE
+*** Atteso___: stan|co
 
-Atteso___: rau|co
+*** Risultato: sta|co
 
-Risultato: ra|au|co
+Test sillabazione: chiaro -> OK
 
-Test sillabazione: occhiali -> ERRORE
+Test sillabazione: luglio -> OK
 
-Atteso___: oc|chia|li
-
-Risultato: o|hi|ia|li
-
-Test sillabazione: materiale -> ERRORE
-
-Atteso___: ma|te|ria|le
-
-Risultato: ma|te|ri|ia|le
-
-Test sillabazione: pinguino -> ERRORE
-
-Atteso___: pin|gui|no
-
-Risultato: pi|gu|ui|no
-
-Test sillabazione: buono -> ERRORE
-
-Atteso___: buo|no
-
-Risultato: bu|uo|no
-
-Test sillabazione: foiba -> ERRORE
-
-Atteso___: foi|ba
-
-Risultato: fo|oi|ba
-
-Test sillabazione: piuma -> ERRORE
-
-Atteso___: piu|ma
-
-Risultato: pi|iu|ma
-
-Test sillabazione: maiale -> ERRORE
-
-Atteso___: ma|ia|le
-
-Risultato: ma|ai|le
-
-Test sillabazione: centinaio -> ERRORE
-
-Atteso___: cen|ti|na|io
-
-Risultato: ce|ti|na|ai
-
-Test sillabazione: aiutare -> ERRORE
-
-Atteso___: a|iu|ta|re
-
-Risultato: ai|ta|re
-
-Test sillabazione: paiolo -> ERRORE
-
-Atteso___: pa|io|lo
-
-Risultato: pa|ai|lo
-
-Test sillabazione: maestra -> ERRORE
-
-Atteso___: ma|e|stra
-
-Risultato: ma|stra
-
-Test sillabazione: aeroplano -> ERRORE
-
-Atteso___: a|e|ro|pla|no
-
-Risultato: ro|pla|no
-
-Test sillabazione: poeta -> ERRORE
-
-Atteso___: po|e|ta
-
-Risultato: po|ta
-
-Test sillabazione: paesaggio -> ERRORE
-
-Atteso___: pa|e|sag|gio
-
-Risultato: pa|sa|gi|io
-
-Test sillabazione: aiuola -> ERRORE
-
-Atteso___: a|iuo|la
-
-Risultato: ai|uo|la
-
-Test sillabazione: oltranzista -> ERRORE
-
-Atteso___: ol|tran|zi|sta
-
-Risultato: o|tra|zi|sta
-
-Test sillabazione: soppressata -> ERRORE
-
-Atteso___: sop|pres|sa|ta
-
-Risultato: so|pre|ssa|ta
-
-Test sillabazione: erba -> ERRORE
-
-Atteso___: er|ba
-
-Risultato: e|ba
-
-Test sillabazione: stanco -> ERRORE
-
-Atteso___: stan|co
-
-Risultato: sta|co
-
-Test sillabazione: chiaro -> ERRORE
-
-Atteso___: chia|ro
-
-Risultato: hi|ia|ro
-
-Test sillabazione: luglio -> ERRORE
-
-Atteso___: lu|glio
-
-Risultato: lu|gli|io
-
-Test sillabazione: schiavo -> ERRORE
-
-Atteso___: schia|vo
-
-Risultato: schi|vo
+Test sillabazione: schiavo -> OK
