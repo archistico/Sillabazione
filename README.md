@@ -80,9 +80,7 @@ Test sillabazione: aeroplano -> OK
 Test sillabazione: poeta -> OK  
 Test sillabazione: paesaggio -> OK  
 Test sillabazione: aiuola -> OK  
-*** Test sillabazione: oltranzista -> ERRORE  
-*** Atteso___: ol|tran|zi|sta  
-*** Risultato: ol|tra|zi|sta  
+Test sillabazione: oltranzista -> OK  
 Test sillabazione: soppressata -> OK  
 Test sillabazione: erba -> OK  
 Test sillabazione: stanco -> OK  

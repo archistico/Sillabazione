@@ -285,6 +285,11 @@ class Sillabazione {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
                     c += 3;
                 }
+                // caso ol-tran-zi-sta
+                else if (Lettera.isConsonante(this.testo[c + 3]) && Lettera.isConsonante(this.testo[c + 4]) && (this.testo[c + 3] != this.testo[c + 4]) && !Lettera.isGruppiConsonantici(this.testo[c + 3] + this.testo[c + 4]) && !Lettera.isGruppiDiacritici(this.testo[c + 3] + this.testo[c + 4])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                    c += 3;
+                }
                 // altro
                 else {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
