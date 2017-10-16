@@ -30,7 +30,7 @@ class Lettera {
 
         this.trittongo = ["iai", "iei", "uoi", "uai", "uei"];
 
-        this.consonantici = [
+        this.gruppiconsonantici = [
             "br", "cr", "dr", "fr", "gr", "pr", "tr", "vr",
             "bl", "cl", "dl", "fl", "gl", "pl", "tl", "vl",
         ];
@@ -57,6 +57,15 @@ class Lettera {
     static isOther(carattere) {
         let L = new Lettera();
         if ((L.vocali.indexOf(carattere) == -1) && (L.consonanti.indexOf(carattere) == -1)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    static isGruppiConsonantici(testo) {
+        let L = new Lettera();
+        if (L.gruppiconsonantici.indexOf(testo) != -1) {
             return true;
         } else {
             return false;
@@ -112,9 +121,18 @@ class Sillabazione {
                     this.listaSillabe.push(this.testo[c]);
                 }
             }
+            // regola 2
             if (Lettera.isConsonante(this.testo[c]) && Lettera.isVocale(this.testo[c + 1])) {
                 this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
                 c++;
+            }
+            // regola 3
+            if (Lettera.isConsonante(this.testo[c]) &&
+                Lettera.isConsonante(this.testo[c + 1]) &&
+                Lettera.isVocale(this.testo[c + 2]) &&
+                Lettera.isGruppiConsonantici(this.testo[c] + this.testo[c + 1])) {
+                this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                c += 2;
             }
         }
         return this.listaSillabe;
@@ -239,6 +257,13 @@ let ListaParole = [
     { parola: "poeta", sillabe: ["po", "e", "ta"] },
     { parola: "paesaggio", sillabe: ["pa", "e", "sag", "gio"] },
     { parola: "aiuola", sillabe: ["a", "iuo", "la"] },
+    { parola: "oltranzista", sillabe: ["ol", "tran", "zi", "sta"] },
+    { parola: "soppressata", sillabe: ["sop", "pres", "sa", "ta"] },
+    { parola: "erba", sillabe: ["er", "ba"] },
+    { parola: "stanco", sillabe: ["stan", "co"] },
+    { parola: "chiaro", sillabe: ["chia", "ro"] },
+    { parola: "luglio", sillabe: ["lu", "glio"] },
+    { parola: "schiavo", sillabe: ["schia", "vo"] },
 ];
 let testSillabazione = new TestSillabazione(ListaParole);
 testSillabazione.Check();

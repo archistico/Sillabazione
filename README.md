@@ -1,13 +1,22 @@
 
-*Sillabazione*
+#Sillabazione
+
+## License MIT
+
+## arch. Emilie Rollandin
 
 Test divisione parole: OK
 
 Test sillabazione: tavolo -> OK
+
 Test sillabazione: luce -> OK
+
 Test sillabazione: pera -> OK
+
 Test sillabazione: ala -> OK
+
 Test sillabazione: odore -> OK
+
 Test sillabazione: uno -> OK
 
 Test sillabazione: atletica -> ERRORE
