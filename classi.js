@@ -11,6 +11,17 @@ function wr(testo) {
     }
 }
 
+function wre(testo) {
+    if (testo != null) {
+        var ris = document.getElementById("risultati");
+        var p = document.createElement("p");
+        p.innerHTML = testo;
+        p.classList.add('errore');
+        ris.appendChild(p);
+    }
+}
+
+
 // **********************************
 // *******     CLASSI       *********
 // **********************************
@@ -202,11 +213,11 @@ class TestDivisioneTestoParole {
         if ((this.risultato.length == this.atteso.length) && (this.risultato.every((v, i) => v === this.atteso[i]))) {
             wr("Test divisione parole: " + "OK");
         } else {
-            wr("Test divisione parole: ERRORE");
-            wr("******* Atteso ");
-            wr(this.atteso.join("|"));
-            wr("******* Risultato ");
-            wr(this.risultato.join("|"));
+            wre("Test divisione parole: ERRORE");
+            wre("******* Atteso ");
+            wre(this.atteso.join("|"));
+            wre("******* Risultato ");
+            wre(this.risultato.join("|"));
         }
         wr("<br>");
     }
@@ -225,9 +236,9 @@ class TestSillabazione {
             if ((risultato.length == this.lista[c].sillabe.length) && (risultato.every((v, i) => v === this.lista[c].sillabe[i]))) {
                 wr("Test sillabazione: " + this.lista[c].parola + " -> OK");
             } else {
-                wr("Test sillabazione: " + this.lista[c].parola + " -> ERRORE");
-                wr("Atteso___: " + this.lista[c].sillabe.join("|"));
-                wr("Risultato: " + risultato.join("|"));
+                wre("Test sillabazione: " + this.lista[c].parola + " -> ERRORE");
+                wre("Atteso___: " + this.lista[c].sillabe.join("|"));
+                wre("Risultato: " + risultato.join("|"));
             }
         }
     }
