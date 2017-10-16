@@ -325,7 +325,7 @@ class Sillabazione {
             }
             // regola 6.1 Sto, sta, ...
             if ((this.testo[c] == "s" || this.testo[c] == "S") &&
-                Lettera.isConsonante(this.testo[c + 1]) &&
+                Lettera.isConsonante(this.testo[c + 1]) && (this.testo[c + 1] != "s") &&
                 Lettera.isVocale(this.testo[c + 2])) {
                 // caso in cui ho trittongo
                 if (Lettera.isTrittongo(this.testo[c + 2] + this.testo[c + 3] + this.testo[c + 4])) {
