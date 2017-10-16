@@ -21,6 +21,14 @@ function wre(testo) {
     }
 }
 
+function wrtest(testo) {
+    if (testo != null) {
+        var ris = document.getElementById("test");
+        var p = document.createElement("h3");
+        p.innerHTML = testo;
+        ris.appendChild(p);
+    }
+}
 
 // **********************************
 // *******     CLASSI       *********
@@ -155,8 +163,26 @@ class Sillabazione {
             }
             // regola 2
             if (Lettera.isConsonante(this.testo[c]) && Lettera.isVocale(this.testo[c + 1])) {
-                this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
-                c++;
+                // caso in cui ho un dittongo
+                if (Lettera.isConsonante(this.testo[c]) && Lettera.isDittongo(this.testo[c + 1] + this.testo[c + 2])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                    c += 3;
+                }
+                // caso in cui ho trittongo
+                else if (Lettera.isConsonante(this.testo[c]) && Lettera.isTrittongo(this.testo[c + 1] + this.testo[c + 2] + +this.testo[c + 3])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                    c += 4;
+                }
+                // caso in cui ho una doppia
+                else if (Lettera.isConsonante(this.testo[c]) && Lettera.isVocale(this.testo[c + 1]) && Lettera.isConsonante(this.testo[c + 2]) && (this.testo[c + 2] == this.testo[c + 3])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                    c += 3;
+                }
+                // altro
+                else {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
+                    c++;
+                }
             }
             // regola 3
             if (Lettera.isConsonante(this.testo[c]) &&
@@ -166,31 +192,31 @@ class Sillabazione {
                 this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
                 c += 2;
             }
-            // regola 4
-            if (Lettera.isDittongo(this.testo[c] + this.testo[c + 1])) {
-                this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
-                c += 1;
-            }
-            // regola 5
-            if (Lettera.isTrittongo(this.testo[c] + this.testo[c + 1] + +this.testo[c + 2])) {
-                this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
-                c += 2;
-            }
-            // regola 6.1
+            // regola 6.1 Sto, sta, ...
             if ((this.testo[c] == "s" || this.testo[c] == "S") &&
                 Lettera.isConsonante(this.testo[c + 1]) &&
                 Lettera.isVocale(this.testo[c + 2])) {
-                this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
-                c += 2;
+                // se c'è un dittongo
+                if (Lettera.isDittongo(this.testo[c + 2] + this.testo[c + 3])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                    c += 4;
+                }
+                // se c'è solo una vocale 
+                else {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                    c += 3;
+                }
+
             }
-            // regola 6.2
+            // regola 6.2 Stra, scra, ...
             if ((this.testo[c] == "s" || this.testo[c] == "S") &&
                 Lettera.isConsonante(this.testo[c + 1]) &&
                 Lettera.isConsonante(this.testo[c + 2]) &&
                 Lettera.isVocale(this.testo[c + 3])) {
                 this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
-                c += 3;
+                c += 4;
             }
+
         }
         return this.listaSillabe;
     }
@@ -199,6 +225,41 @@ class Sillabazione {
 // **********************************
 // ********** TEST ******************
 // **********************************
+class Test {
+    constructor() {
+
+    }
+
+    static addTest() {
+        if (this.numeroTest == undefined) {
+            this.numeroTest = 1;
+        } else {
+            this.numeroTest++;
+        }
+    }
+
+    static getNumeroTest() {
+        if (this.numeroTest == undefined) {
+            this.numeroTest = 0;
+        }
+        return this.numeroTest;
+    }
+
+    static addTestPassed() {
+        if (this.numeroTestPassed == undefined) {
+            this.numeroTestPassed = 1;
+        } else {
+            this.numeroTestPassed++;
+        }
+    }
+
+    static getNumeroTestPassed() {
+        if (this.numeroTestPassed == undefined) {
+            this.numeroTestPassed = 0;
+        }
+        return this.numeroTestPassed;
+    }
+}
 
 class TestDivisioneTestoParole {
     constructor(testo, atteso) {
@@ -210,8 +271,10 @@ class TestDivisioneTestoParole {
         let sil = new Sillabazione(this.testo);
         this.risultato = sil.TestoDivisioneParole();
 
+        Test.addTest();
         if ((this.risultato.length == this.atteso.length) && (this.risultato.every((v, i) => v === this.atteso[i]))) {
             wr("Test divisione parole: " + "OK");
+            Test.addTestPassed();
         } else {
             wre("Test divisione parole: ERRORE");
             wre("******* Atteso ");
@@ -232,9 +295,11 @@ class TestSillabazione {
         for (let c = 0; c < this.lista.length; c++) {
             let sil = new Sillabazione(this.lista[c].parola);
             let risultato = sil.sillaba();
+            Test.addTest();
 
             if ((risultato.length == this.lista[c].sillabe.length) && (risultato.every((v, i) => v === this.lista[c].sillabe[i]))) {
                 wr("Test sillabazione: " + this.lista[c].parola + " -> OK");
+                Test.addTestPassed();
             } else {
                 wre("Test sillabazione: " + this.lista[c].parola + " -> ERRORE");
                 wre("Atteso___: " + this.lista[c].sillabe.join("|"));
@@ -247,6 +312,8 @@ class TestSillabazione {
 // **********************************
 // ******* IMPLEMENTAZIONE  *********
 // **********************************
+let numeroTest = 0;
+let numeroTestPassed = 0;
 
 let testoPinocchio = "Il povero Pinocchio corse subito al focolare, dove c’era una pentola che bolliva, e fece l’atto di scoperchiarla, per vedere che cosa ci fosse dentro: ma la pentola era dipinta sul muro.";
 let testoPinocchioParole = ["Il", " ", "povero", " ", "Pinocchio", " ", "corse", " ", "subito", " ", "al", " ", "focolare", ",", " ", "dove", " ", "c’", "era", " ", "una", " ", "pentola", " ", "che", " ", "bolliva", ",", " ", "e", " ", "fece", " ", "l’", "atto", " ", "di", " ", "scoperchiarla", ",", " ", "per", " ", "vedere", " ", "che", " ", "cosa", " ", "ci", " ", "fosse", " ", "dentro", ":", " ", "ma", " ", "la", " ", "pentola", " ", "era", " ", "dipinta", " ", "sul", " ", "muro", "."];
@@ -324,3 +391,5 @@ let ListaParole = [
 ];
 let testSillabazione = new TestSillabazione(ListaParole);
 testSillabazione.Check();
+
+wrtest("Test passati: " + Test.getNumeroTestPassed() + "/" + Test.getNumeroTest());
