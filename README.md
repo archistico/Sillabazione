@@ -13,7 +13,7 @@
 
 ### TEST
 
-Test passati: 65/70  
+Test passati: 66/70  
 Test divisione parole: OK  
 Test sillabazione: tavolo -> OK  
 Test sillabazione: luce -> OK  
