@@ -7,22 +7,16 @@
 
 ### Utilizzo
 
-let sil = new Sillabazione("atletica");
-
-let risultato = sil.Sillaba();
-
-["a", "tle", "ti", "ca"]
+    let sil = new Sillabazione("atletica");
+    let risultato = sil.Sillaba();
+    ["a", "tle", "ti", "ca"]
 
 ### TEST
 
 Test passati: 56/67
-
 Test divisione parole: OK
-
 Test sillabazione: tavolo -> OK
-
 Test sillabazione: luce -> OK
-
 Test sillabazione: pera -> OK
 
 Test sillabazione: ala -> OK
