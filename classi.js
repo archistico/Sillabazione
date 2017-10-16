@@ -229,8 +229,15 @@ class Sillabazione {
                 }
                 // caso in cui ho un dittongo
                 else if (Lettera.isConsonante(this.testo[c]) && Lettera.isDittongo(this.testo[c + 1] + this.testo[c + 2])) {
-                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
-                    c += 2;
+
+                    // caso in cui ho cq
+                    if ((this.testo[c + 3] == "c") && (this.testo[c + 4] == "q")) {
+                        this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                        c += 3;
+                    } else {
+                        this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                        c += 2;
+                    }
                 }
                 // caso in cui ho cq
                 else if (Lettera.isConsonante(this.testo[c]) && Lettera.isVocale(this.testo[c + 1]) && (this.testo[c + 3] == "c") && (this.testo[c + 4] == "q")) {
@@ -327,11 +334,17 @@ class Sillabazione {
                 }
                 // caso in cui ho un dittongo
                 else if (Lettera.isDittongo(this.testo[c + 2] + this.testo[c + 3])) {
-                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
-                    c += 3;
+                    // caso in cui ho cq
+                    if ((this.testo[c + 4] == "c") && (this.testo[c + 5] == "q")) {
+                        this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3] + this.testo[c + 4]);
+                        c += 4;
+                    } else {
+                        this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                        c += 3;
+                    }
                 }
                 // caso in cui ho cq
-                else if (Lettera.isVocale(this.testo[c + 2]) && (this.testo[c + 3] == "c") && (this.testo[c + 4] == "q")) {
+                else if ((this.testo[c + 3] == "c") && (this.testo[c + 4] == "q")) {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
                     c += 3;
                 }
