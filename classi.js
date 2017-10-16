@@ -15,7 +15,7 @@ function wr(testo) {
 // *******     CLASSI       *********
 // **********************************
 
-class Lettere {
+class Lettera {
     constructor() {
         this.vocali = ["a", "e", "i", "o", "u", "y",
             "A", "E", "I", "O", "U", "Y",
@@ -27,10 +27,17 @@ class Lettere {
         ];
 
         this.dittongo = ["ia", "ie", "io", "iu", "ua", "ue", "uo", "ui", "ai", "ei", "oi", "ui", "au", "eu"];
+
+        this.trittongo = ["iai", "iei", "uoi", "uai", "uei"];
+
+        this.consonantici = [
+            "br", "cr", "dr", "fr", "gr", "pr", "tr", "vr",
+            "bl", "cl", "dl", "fl", "gl", "pl", "tl", "vl",
+        ];
     }
 
     static isVocale(carattere) {
-        let L = new Lettere();
+        let L = new Lettera();
         if (L.vocali.indexOf(carattere) != -1) {
             return true;
         } else {
@@ -39,7 +46,7 @@ class Lettere {
     }
 
     static isConsonante(carattere) {
-        let L = new Lettere();
+        let L = new Lettera();
         if (L.consonanti.indexOf(carattere) != -1) {
             return true;
         } else {
@@ -48,7 +55,7 @@ class Lettere {
     }
 
     static isOther(carattere) {
-        let L = new Lettere();
+        let L = new Lettera();
         if ((L.vocali.indexOf(carattere) == -1) && (L.consonanti.indexOf(carattere) == -1)) {
             return true;
         } else {
@@ -62,6 +69,7 @@ class Sillabazione {
         this.testo = testo;
         this.listaParole = [];
         this.listaCaratteri = [];
+        this.listaSillabe = [];
     }
 
     TestoDivisioneParole() {
@@ -69,7 +77,7 @@ class Sillabazione {
         let listaTemp = [];
         for (let c = 0; c < this.listaCaratteri.length; c++) {
 
-            if (Lettere.isOther(this.listaCaratteri[c])) {
+            if (Lettera.isOther(this.listaCaratteri[c])) {
                 // Se è una parola apostrofata unisci
                 if ((this.listaCaratteri[c] == "’") || (this.listaCaratteri[c] == "'")) {
                     listaTemp.push(this.listaCaratteri[c]);
@@ -93,12 +101,23 @@ class Sillabazione {
             }
 
         }
-        //console.log();
         return this.listaParole;
     }
 
     sillaba() {
-        return [];
+        for (let c = 0; c < this.testo.length; c++) {
+            // regola 1
+            if (c == 0) {
+                if (Lettera.isVocale(this.testo[c]) && Lettera.isConsonante(this.testo[c + 1])) {
+                    this.listaSillabe.push(this.testo[c]);
+                }
+            }
+            if (Lettera.isConsonante(this.testo[c]) && Lettera.isVocale(this.testo[c + 1])) {
+                this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
+                c++;
+            }
+        }
+        return this.listaSillabe;
     }
 }
 
@@ -125,6 +144,7 @@ class TestDivisioneTestoParole {
             wr("******* Risultato ");
             wr(this.risultato.join("|"));
         }
+        wr("<br>");
     }
 }
 
@@ -144,6 +164,7 @@ class TestSillabazione {
                 wr("Test sillabazione: " + this.lista[c].parola + " -> ERRORE");
                 wr("Atteso___: " + this.lista[c].sillabe.join("|"));
                 wr("Risultato: " + risultato.join("|"));
+                wr("<br>");
             }
         }
     }
@@ -166,6 +187,59 @@ let ListaParole = [
     { parola: "ala", sillabe: ["a", "la"] },
     { parola: "odore", sillabe: ["o", "do", "re"] },
     { parola: "uno", sillabe: ["u", "no"] },
+    { parola: "atletica", sillabe: ["a", "tle", "ti", "ca"] },
+    { parola: "biblico", sillabe: ["bi", "bli", "co"] },
+    { parola: "inclinato", sillabe: ["in", "cli", "na", "to"] },
+    { parola: "brodo", sillabe: ["bro", "do"] },
+    { parola: "credere", sillabe: ["cre", "de", "re"] },
+    { parola: "dromedario", sillabe: ["dro", "me", "da", "rio"] },
+    { parola: "flebile", sillabe: ["fle", "bi", "le"] },
+    { parola: "africano", sillabe: ["a", "fri", "ca", "no"] },
+    { parola: "gladiolo", sillabe: ["gla", "di", "o", "lo"] },
+    { parola: "prego", sillabe: ["pre", "go"] },
+    { parola: "treno", sillabe: ["tre", "no"] },
+    { parola: "ostracismo", sillabe: ["o", "stra", "ci", "smo"] },
+    { parola: "costola", sillabe: ["co", "sto", "la"] },
+    { parola: "scoiattolo", sillabe: ["sco", "iat", "to", "lo"] },
+    { parola: "costruire", sillabe: ["co", "stru", "i", "re"] },
+    { parola: "caspita", sillabe: ["ca", "spi", "ta"] },
+    { parola: "striscione", sillabe: ["stri", "scio", "ne"] },
+    { parola: "tetto", sillabe: ["tet", "to"] },
+    { parola: "acqua", sillabe: ["ac", "qua"] },
+    { parola: "risciacquo", sillabe: ["ri", "sciac", "quo"] },
+    { parola: "calma", sillabe: ["cal", "ma"] },
+    { parola: "ricerca", sillabe: ["ri", "cer", "ca"] },
+    { parola: "tecnico", sillabe: ["tec", "ni", "co"] },
+    { parola: "aritmetica", sillabe: ["a", "rit", "me", "ti", "ca"] },
+    { parola: "controllo", sillabe: ["con", "trol", "lo"] },
+    { parola: "ventricolo", sillabe: ["ven", "tri", "co", "lo"] },
+    { parola: "scaltro", sillabe: ["scal", "tro"] },
+    { parola: "interstizio", sillabe: ["in", "ter", "sti", "zio"] },
+    { parola: "auguri", sillabe: ["au", "gu", "ri"] },
+    { parola: "viola", sillabe: ["vio", "la"] },
+    { parola: "indiano", sillabe: ["in", "dia", "no"] },
+    { parola: "lingua", sillabe: ["lin", "gua"] },
+    { parola: "questo", sillabe: ["que", "sto"] },
+    { parola: "zaino", sillabe: ["zai", "no"] },
+    { parola: "piacque", sillabe: ["piac", "que"] },
+    { parola: "pieno", sillabe: ["pie", "no"] },
+    { parola: "sedie", sillabe: ["se", "die"] },
+    { parola: "rauco", sillabe: ["rau", "co"] },
+    { parola: "occhiali", sillabe: ["oc", "chia", "li"] },
+    { parola: "materiale", sillabe: ["ma", "te", "ria", "le"] },
+    { parola: "pinguino", sillabe: ["pin", "gui", "no"] },
+    { parola: "buono", sillabe: ["buo", "no"] },
+    { parola: "foiba", sillabe: ["foi", "ba"] },
+    { parola: "piuma", sillabe: ["piu", "ma"] },
+    { parola: "maiale", sillabe: ["ma", "ia", "le"] },
+    { parola: "centinaio", sillabe: ["cen", "ti", "na", "io"] },
+    { parola: "aiutare", sillabe: ["a", "iu", "ta", "re"] },
+    { parola: "paiolo", sillabe: ["pa", "io", "lo"] },
+    { parola: "maestra", sillabe: ["ma", "e", "stra"] },
+    { parola: "aeroplano", sillabe: ["a", "e", "ro", "pla", "no"] },
+    { parola: "poeta", sillabe: ["po", "e", "ta"] },
+    { parola: "paesaggio", sillabe: ["pa", "e", "sag", "gio"] },
+    { parola: "aiuola", sillabe: ["a", "iuo", "la"] },
 ];
 let testSillabazione = new TestSillabazione(ListaParole);
 testSillabazione.Check();
