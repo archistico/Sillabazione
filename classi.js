@@ -237,6 +237,11 @@ class Sillabazione {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
                     c += 2;
                 }
+                // caso in cui ho due consonanti dopo
+                else if (Lettera.isConsonante(this.testo[c]) && Lettera.isVocale(this.testo[c + 1]) && Lettera.isConsonante(this.testo[c + 2]) && Lettera.isConsonante(this.testo[c + 3]) && (this.testo[c + 2] != this.testo[c + 3]) && (this.testo[c + 2] != 's') && !Lettera.isGruppiConsonantici(this.testo[c + 2] + this.testo[c + 3]) && !Lettera.isGruppiDiacritici(this.testo[c + 2] + this.testo[c + 3])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                    c += 2;
+                }
                 // altro
                 else {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
