@@ -5,7 +5,17 @@
 
 ### arch. Emilie Rollandin
 
-Test passati: 52/67
+### Utilizzo
+
+let sil = new Sillabazione("atletica");
+
+let risultato = sil.Sillaba();
+
+["a", "tle", "ti", "ca"]
+
+### TEST
+
+Test passati: 56/67
 
 Test divisione parole: OK
 
@@ -25,11 +35,7 @@ Test sillabazione: atletica -> OK
 
 Test sillabazione: biblico -> OK
 
-*** Test sillabazione: inclinato -> ERRORE
-
-*** Atteso___: in|cli|na|to
-
-*** Risultato: i|cli|na|to
+Test sillabazione: inclinato -> OK
 
 Test sillabazione: brodo -> OK
 
@@ -99,11 +105,7 @@ Test sillabazione: ventricolo -> OK
 
 *** Risultato: sca|tro
 
-*** Test sillabazione: interstizio -> ERRORE
-
-*** Atteso___: in|ter|sti|zio
-
-*** Risultato: i|ter|sti|zio
+Test sillabazione: interstizio -> OK
 
 *** Test sillabazione: auguri -> ERRORE
 
@@ -113,11 +115,7 @@ Test sillabazione: ventricolo -> OK
 
 Test sillabazione: viola -> OK
 
-*** Test sillabazione: indiano -> ERRORE
-
-*** Atteso___: in|dia|no
-
-*** Risultato: i|dia|no
+Test sillabazione: indiano -> OK
 
 Test sillabazione: lingua -> OK
 
@@ -175,7 +173,7 @@ Test sillabazione: aiuola -> OK
 
 *** Atteso___: ol|tran|zi|sta
 
-*** Risultato: o|tra|zi|sta
+*** Risultato: ol|tra|zi|sta
 
 *** Test sillabazione: soppressata -> ERRORE
 
@@ -183,11 +181,7 @@ Test sillabazione: aiuola -> OK
 
 *** Risultato: sop|pres|ssa|ta
 
-*** Test sillabazione: erba -> ERRORE
-
-*** Atteso___: er|ba
-
-*** Risultato: e|ba
+Test sillabazione: erba -> OK
 
 *** Test sillabazione: stanco -> ERRORE
 

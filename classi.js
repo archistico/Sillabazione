@@ -163,7 +163,7 @@ class Sillabazione {
         return this.listaParole;
     }
 
-    sillaba() {
+    Sillaba() {
         for (let c = 0; c < this.testo.length; c++) {
 
 
@@ -456,7 +456,7 @@ class TestSillabazione {
     Check() {
         for (let c = 0; c < this.lista.length; c++) {
             let sil = new Sillabazione(this.lista[c].parola);
-            let risultato = sil.sillaba();
+            let risultato = sil.Sillaba();
             Test.addTest();
 
             if ((risultato.length == this.lista[c].sillabe.length) && (risultato.every((v, i) => v === this.lista[c].sillabe[i]))) {
