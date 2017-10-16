@@ -13,10 +13,10 @@
 
 ### TEST
 
-Test passati: 56/67
-Test divisione parole: OK
-Test sillabazione: tavolo -> OK
-Test sillabazione: luce -> OK
+Test passati: 56/67  
+Test divisione parole: OK  
+Test sillabazione: tavolo -> OK  
+Test sillabazione: luce -> OK  
 Test sillabazione: pera -> OK
 
 Test sillabazione: ala -> OK
