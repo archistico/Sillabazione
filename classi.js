@@ -179,10 +179,10 @@ class Sillabazione {
                 this.listaSillabe.push(this.testo[c + 1] + this.testo[c + 2]);
                 c += 3;
             } // vocale più altra vocale 
-            else if (Lettera.isVocale(this.testo[c]) && Lettera.isVocale(this.testo[c + 1])) {
+            else if (Lettera.isVocale(this.testo[c]) && Lettera.isVocale(this.testo[c + 1]) && !Lettera.isDittongo(this.testo[c] + this.testo[c + 1])) {
                 this.listaSillabe.push(this.testo[c]);
                 this.listaSillabe.push(this.testo[c + 1]);
-                c += 1;
+                c += 2;
             }
 
             if (Lettera.isTrittongo(this.testo[c] + this.testo[c + 1] + this.testo[c + 2])) {
@@ -550,6 +550,9 @@ let ListaParole = [
     { parola: "chiaro", sillabe: ["chia", "ro"] },
     { parola: "luglio", sillabe: ["lu", "glio"] },
     { parola: "schiavo", sillabe: ["schia", "vo"] },
+    { parola: "pianura", sillabe: ["pia", "nu", "ra"] },
+    { parola: "mia", sillabe: ["mi", "a"] },
+    { parola: "leone", sillabe: ["le", "o", "ne"] },
 ];
 let testSillabazione = new TestSillabazione(ListaParole);
 testSillabazione.Check();
