@@ -164,7 +164,6 @@ class TestSillabazione {
                 wr("Test sillabazione: " + this.lista[c].parola + " -> ERRORE");
                 wr("Atteso___: " + this.lista[c].sillabe.join("|"));
                 wr("Risultato: " + risultato.join("|"));
-                wr("<br>");
             }
         }
     }
