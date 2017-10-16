@@ -296,17 +296,27 @@ class Sillabazione {
             if ((this.testo[c] == "s" || this.testo[c] == "S") &&
                 Lettera.isConsonante(this.testo[c + 1]) &&
                 Lettera.isVocale(this.testo[c + 2])) {
-                // se c'è un dittongo
-                if (Lettera.isDittongo(this.testo[c + 2] + this.testo[c + 3])) {
+                // caso in cui ho trittongo
+                if (Lettera.isTrittongo(this.testo[c + 2] + this.testo[c + 3] + this.testo[c + 4])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3] + this.testo[c + 4]);
+                    c += 4;
+                }
+                // caso in cui ho un dittongo
+                else if (Lettera.isDittongo(this.testo[c + 2] + this.testo[c + 3])) {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
                     c += 3;
                 }
-                // se cq
-                else if ((this.testo[c + 2] == "c") && (this.testo[c + 3] == "q")) {
-                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
-                    c += 2;
+                // caso in cui ho cq
+                else if (Lettera.isVocale(this.testo[c + 2]) && (this.testo[c + 3] == "c") && (this.testo[c + 4] == "q")) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                    c += 3;
                 }
-                // se c'è solo una vocale 
+                // caso in cui ho una doppia
+                else if (Lettera.isConsonante(this.testo[c + 3]) && (this.testo[c + 3] == this.testo[c + 4])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                    c += 3;
+                }
+                // altro
                 else {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
                     c += 2;
