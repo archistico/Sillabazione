@@ -166,7 +166,9 @@ class Sillabazione {
     sillaba() {
         for (let c = 0; c < this.testo.length; c++) {
 
-            // Vocale prima più trittongo 
+
+
+            // Vocale più trittongo 
             if (Lettera.isVocale(this.testo[c]) && Lettera.isTrittongo(this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3])) {
                 this.listaSillabe.push(this.testo[c]);
                 this.listaSillabe.push(this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
@@ -176,6 +178,19 @@ class Sillabazione {
                 this.listaSillabe.push(this.testo[c]);
                 this.listaSillabe.push(this.testo[c + 1] + this.testo[c + 2]);
                 c += 3;
+            } // vocale più altra vocale 
+            else if (Lettera.isVocale(this.testo[c]) && Lettera.isVocale(this.testo[c + 1])) {
+                this.listaSillabe.push(this.testo[c]);
+                this.listaSillabe.push(this.testo[c + 1]);
+                c += 1;
+            }
+
+            if (Lettera.isTrittongo(this.testo[c] + this.testo[c + 1] + this.testo[c + 2])) {
+                this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2]);
+                c += 3;
+            } else if (Lettera.isDittongo(this.testo[c] + this.testo[c + 1])) {
+                this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
+                c += 2;
             }
 
             // regola 1
@@ -189,11 +204,10 @@ class Sillabazione {
                 else if (Lettera.isConsonante(this.testo[c + 1]) && (this.testo[c + 1] == this.testo[c + 2])) {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
                     c += 1;
-                }
-                // Se solo lettera
-                else {
+                } else {
                     this.listaSillabe.push(this.testo[c]);
                 }
+
             }
             // regola 2 Consonante e vocale (poi controllo dittonghi, trittonghi, doppie, ecc.)
             if (Lettera.isConsonante(this.testo[c]) && Lettera.isVocale(this.testo[c + 1])) {
@@ -328,8 +342,31 @@ class Sillabazione {
                 Lettera.isConsonante(this.testo[c + 1]) &&
                 Lettera.isConsonante(this.testo[c + 2]) &&
                 Lettera.isVocale(this.testo[c + 3])) {
-                this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
-                c += 3;
+                // caso in cui ho trittongo
+                if (Lettera.isTrittongo(this.testo[c + 3] + this.testo[c + 4] + this.testo[c + 5])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3] + this.testo[c + 4] + this.testo[c + 5]);
+                    c += 5;
+                }
+                // caso in cui ho un dittongo
+                else if (Lettera.isDittongo(this.testo[c + 3] + this.testo[c + 4])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3] + this.testo[c + 4]);
+                    c += 4;
+                }
+                // caso in cui ho cq
+                else if ((this.testo[c + 4] == "c") && (this.testo[c + 5] == "q")) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3] + this.testo[c + 4]);
+                    c += 4;
+                }
+                // caso in cui ho una doppia
+                else if (Lettera.isConsonante(this.testo[c + 4]) && (this.testo[c + 4] == this.testo[c + 5])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3] + this.testo[c + 4]);
+                    c += 4;
+                }
+                // altro
+                else {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1] + this.testo[c + 2] + this.testo[c + 3]);
+                    c += 3;
+                }
             }
 
         }
