@@ -1,0 +1,390 @@
+SILLABE, DIVISIONE IN
+
+La divisione in sillabe (detta anche sillabazione) segue diverse regole:
+
+– una vocale iniziale seguita da consonante semplice forma una sillaba
+
+U-di-ne, a-mi-do
+
+– le vocali che formano ➔iato vanno divise, mentre i ➔dittonghi e i ➔trittonghi formano un’unica sillaba
+
+mi-a, le-o-ne, ma pia-nu-ra, a-iuo-la
+
+– una consonante semplice forma una sillaba con la vocale che segue (anche x, che foneticamente è consonante doppia, è considerata semplice)
+
+di-to, te-xa-no
+
+– le consonanti finali apostrofate fanno sillaba con la parola seguente
+
+nes-su-n’a-mi-ca, sul-l’al-be-ro
+
+– i gruppi solo grafici (formati con i segni ➔diacritici) costituiscono una sillaba con la vocale che segue
+
+chia-ro, lu-glio, schia-vo
+
+– i gruppi consonantici b, c, d, f, g, p, t, v + l / r formano una sillaba con la vocale che segue
+
+bru-ma, clo-ro, pru-gna
+
+– i gruppi formati da s seguita da una o più consonanti formano una sillaba con la vocale che segue
+
+sto-ri-co, stra-da, mo-struo-so
+
+– i gruppi di due consonanti uguali (e il gruppo cq) si dividono
+
+col-lo, bloc-co, ac-qua-ti-co
+
+– i gruppi formati da due altre consonanti qualsiasi si dividono, secondo la norma che un gruppo non usato all’inizio di una parola del linguaggio corrente va diviso
+
+stan-co, er-ba, al-to
+
+– nei gruppi di tre o più consonanti, di solito la prima consonante appartiene alla sillaba precedente, le altre alla sillaba seguente
+
+sor-pre-sa, ol-tran-zi-sta, sop-pres-sata
+
+se, però, l’unione della seconda e terza (a volte anche quarta) consonante, crea un nesso inesistente, allora la divisione cade tra seconda e terza consonante
+
+feld-spa-to, tung-ste-no
+
+Le parole composte seguono le regole valide per le parole semplici
+
+tran-sa-tlan-ti-co, su-pe-rat-ti-co
+
+tuttavia, si può avere una sillabazione etimologica soprattutto nei composti con dis-, sub-, trans-, iper-, post-, super- la divisione può avvenire tra il prefisso e la base (laddove il prefisso sia nettamente avvertito)
+
+trans-a-tlan-ti-co, su-per-at-ti-co, dis-u-gua-le.
+
+USI
+
+Per ragioni espressive la divisione può essere evidenziata graficamente nel testo anche quando non ci si trova in fine di rigo
+
+«Hai-ca-pi-to?». Silenzio. Dopo qualche secondo aveva esclamato: «Ah! Ho capito» (G. Marconi, Io non scordo)
+
+Quando c’è un apostrofo in fine di rigo, sono permesse diverse soluzioni
+
+del-l’a- // more-re, dell’ // a-mo-re, del- // l’a-mo-re
+
+da evitare invece la soluzione dello // amore con la reintegrazione della vocale elisa che darebbe vita a una sequenza (dello + parola che comincia per vocale) oggi inaccettabile.
+
+
+------------------------------------------------------------
+
+
+
+Le Sillabe (Grammatica)
+
+Le parole di una canzone nello spartito scritte sotto il rigo musicale sono divise in piccole unità separate tra loro da lineette. Provate ora a pronunciarle lentamente queste parole: vi accorgerete che anche parlando noi scomponiamo le parole in tante piccole unità, che pronunciamo mandando fuori la voce in tante piccoli emissioni di fiato.
+
+Al-la fie-ra del- l’est per due sol-di un to-po - li - no mio pa-dre com-prò
+
+Ogni gruppo di lettere pronunciato con una sola emissione di voce si chiama sillaba.
+Ogni sillaba è composta da una vocale unita spesso a consonanti:
+u-na, carta, stra-da. Vi sono sillabe di una sola lettera (o), di due lettere (me), di tre lettere (tra) e di quattro lettere (stro).
+A che cosa serve conoscere la divisione in sillabe? Essa serve per capire la metrica, ma soprattutto per dividere le parole quando andiamo a capo di riga.
+
+Secondo il numero delle sillabe che lo compongono, le parole si dividono in:
+monosillabi formati da 1 sillaba: re, a, bis, crac
+bisillabi formati da 2 sillabe: a-ma, vi-no, stri-scia
+trisillabi formati da 3 sillabe: ta-vo-lo, scom-pa-re, tro-va-re
+polisillabi formati da 4 o più sillabe: a-ma-re-na, soc-com-be-re, pre-ci-pi-te-vo-lis-si-me-vol-men-te.
+
+Divisione in sillabe
+Spesso la divisione in sillabe viene svolta in modo errato senza neanche rendercene conto.
+Pas-ta o pa-sta? 
+I-nu-ti-le o in-u-ti-le? 
+Ri-pie-no o ri pi-e-no?
+
+Sono questi i dubbi di fronte ai quali ci troviamo quando dobbiamo spezzare la parola e andare a capo. Esistono regole precise? Sì, e molte: anzi, troppe.
+L’associazione dei tipografi ha compilato un elenco di diverse pagine di regole con esempi.
+Noi cercheremo di semplificare la questione esponendo solo le principali regole della divisione in sillabe.
+
+Le regole della divisione in sillabe
+1. Una vocale iniziale di parola seguita da una sola consonante fa sillaba a sé: a-la;
+2. Le vocali che formano dittongo o trittongo non si possono separare: luo-go, buoi;
+3. Le covali che formano iato si possono separare: po-e-ta o poe-ta;
+4. Una consonante semplice fa sillaba con la vocale o il dittongo che la segue: la-vo-ro, ri-pie-no;
+5. I digrammi e i trigrammi non si dividono mai: re-gna-re, fi-glio-lo;
+6. Le consonanti doppie si dividono sempre: trop-po, ac-qua (il gruppo cq è considerato come qq);
+7. Nei gruppi di consonanti che hanno come prima lettera l, r, m, n, queste fanno sillaba con la vocale che precede: mol-to, cor-to, men-ta, cam-po;
+8. La s seguita da un’altra consonante si appoggia alla sillaba che segue: po-sta, mi-schia, mi-sfat-to.
+
+
+Nel contare le sillabe occorre, però, tener presenti alcune particolarità o figure metriche:
+
+Elisione o sinalefe
+Due sillabe si fondono in una sola quando la 1° termina in vocale o dittongo e la 2° comincia per vocale o dittongo:
+
+dolce e chiara è la notte: dol-ce e chia-ra è la not-te  (sono 7 sillabe e non 9);
+forse ho visto: for-se ho vi-sto (sono 4 sillabe e non 5).
+
+Iato e dialefe
+È il fenomeno opposto all'elisione e si ha quando due vocali che si incontrano sono considerate ben distinte tra loro:
+non han sì a-spri (sono 5 sillabe e non 4 perché sì e a non si fondono;
+
+Dieresi
+Si ha quando le vocali di un dittongo vengono sdoppiate in due sillabe (sulla prima delle due vocali si pone generalmente la dieresi):
+ba-le-ni si-len-zi-o-si 
+(sono 8 sillabe e non 7).
+
+Sineresi
+È il contrario della dieresi e si ha quando due vocali non costituenti dittongo vengono fuse in una sola sillaba come se fossero dittongo:
+pa-rea che l'ae-re 
+(sono 5 sillabe e non 7 perché ea di parea e ae  di aere sono sentiti come dittonghi pur non essendolo.) 
+
+--------------------------------------------------------------
+
+ IATO
+
+Lo iato (dal latino hiatum ‘apertura’) è un gruppo di due vocali consecutive pronunciate in modo distinto e appartenenti a due sillabe diverse. Possiamo dunque considerarlo come il contrario del ➔dittongo.
+
+Lo iato si ha:
+
+– quando nessuna delle due vocali è i o u
+
+meandro, teologo, boa	
+
+– quando una delle due vocali è i o u accentata e l’altra vocale è a, e, o
+
+mormorìo, tùa, caffeìna
+
+– nelle parole composte, quando è evidente la distinzione tra prefisso e base
+
+riecco (prefisso ri)
+
+triennio (prefisso tri)
+
+antiacido (prefisso anti). 
+
+---------------------------------------------------------------
+
+ DITTONGO
+
+Il dittongo (dal greco dìphthongos ‘suono doppio’) è un gruppo di due vocali consecutive all’interno di una stessa sillaba. Una delle due vocali è sempre o una i o una u, corrispondente – a seconda della posizione nel gruppo – a una ➔semiconsonante o a una ➔semivocale.
+
+• Si dicono dittonghi ascendenti i gruppi in cui la i o la u semiconsonanti si trovano in prima posizione:
+
+– ia, ie, io, iu
+
+pianura, schiena, passione, fiume
+
+– ua, ue, ui, uo
+
+tregua, duemila, suicida, suono
+
+• Si dicono dittonghi discendenti i gruppi in cui la i o la u semivocali si trovano in seconda posizione:
+
+– ai, ei, oi, ui
+
+zaino, farei, foiba, lui
+
+– au, eu
+
+aumento, europeo
+
+Si parla di dittonghi mobili per indicare i dittonghi ie e uo che si conservano quando si trovano in una sillaba accentata che termina in vocale; e si riducono rispettivamente alle sole vocali e e o quando si trovano in una sillaba non accentata (o in una accentata che termina per consonante).
+
+Il fenomeno si verifica in diversi casi.
+
+• Nella coniugazione di verbi come venire, sedere, muovere, morire, potere, volere
+
+tu vie-ni / voi ve-nite, io mi sie-do / io mi se-devo, lui può / lui po-té, lei vuo-le / voi vo-lete (= sillaba accentata che termina in vocale / sillaba non accentata)
+
+Tuttavia, se la sillaba accentata termina in consonante il dittongo scompare
+
+tu vie-ni / io ven-go, muo-re / mor-to, può / pos-so, vuo-le / vor-rei (= sillaba accentata che termina in vocale / sillaba accentata che termina per consonante)
+
+Muovere e i suoi composti, e verbi come suonare, risuonare, tuonare, scuotere, tendono a mantenere il dittongo anche in sillaba non accentata
+
+io mi muovevo, lui si sta commuovendo, la campana suonò, loro scuotevano
+
+Alcuni verbi mantengono sempre il dittongo: in certi come presiedere, risiedere, mietere, chiedere, allietare si tratta di un dittongo ormai cristallizzato; in altri verbi come lievitare, abbuonare, nuotare, vuotare si conserva per evitare confusione con levitare, abbonare, notare, votare.
+
+In altri casi, invece, come per i verbi giocare, negare, levare si usa sempre il monottongo, ormai cristallizzato
+
+lui gioca, loro levano, io nego (ma il sostantivo diniego)
+
+• Nella creazione di nomi alterati (➔alterazione) derivati da una base con dittongo
+
+uomo ▶ omone
+
+uovo ▶ ovetto
+
+Ci sono però anche delle oscillazioni, con una possibile distinzione di significato
+
+piede ▶ pedone (‘chi cammina a piedi’) e piedone (‘grosso piede’)
+
+• Nella creazione di nomi e aggettivi derivati da una base con dittongo
+
+buono ▶ bontà
+
+scuola ▶ scolarizzazione
+
+uomo ▶ umano
+
+Anche qui ci sono delle eccezioni: il dittongo si conserva in sillaba non accentata in alcune parole composte (soprattutto sostantivi con buono, fuori, e avverbi in -mente)
+
+buono ▶ buonissimo
+
+nuovo ▶ nuovamente
+
+e in forme come buongiorno, buongustaio, fuoriuscito.
+
+STORIA
+
+Il dittongo mobile era maggiormente rispettato nei secoli passati
+
+Movesi il vecchierel canuto et bianco (F. Petrarca, Canzoniere)
+
+La gente si moveva, davanti e di dietro (A. Manzoni, I promessi sposi)
+
+Forme come moveva o commovendo, in uso fino alla metà del XX secolo, risultano oggi antiquate
+
+Carla non si moveva né parlava (A. Moravia, Gli indifferenti)
+
+Questa specie di primato sentimentale che stava commovendo il pio pellegrino (M. Moretti,G. Prezzolini, Carteggio, 1920-1977)
+
+Resistono, invece, alcune cristallizzazioni come Federazione Italiana Giuoco Calcio, che si spiegano con il carattere ufficiale della denominazione. 
+
+-----------------------------------------------------------------
+
+ TRITTONGO
+
+Il trittongo (dal greco trìphthongos ‘suono triplo’) è un gruppo di tre vocali consecutive all’interno di una stessa sillaba. Nell’incontro di tre suoni vocalici all’interno di una sola sillaba, due di essi diventano ➔semivocali o ➔semiconsonanti.
+
+•Una semiconsonante + una vocale + una semivocale:
+
+– -iei, -iai,-ioi
+
+miei
+
+scambiai
+
+– -uai, -uei,-uoi
+
+guai
+
+suoi
+
+• Due semiconsonanti + una vocale:
+
+– -iuo
+
+aiuola. 
+
+-----------------------------------------------------------------------------------
+
+ DIACRITICI, SEGNI
+
+Nella lingua scritta, i segni diacritici sono lettere che non corrispondono a un suono, ma servono soltanto a determinare (dal greco diakritikòs ‘che distingue’) la giusta pronuncia di un’altra lettera o gruppo di lettere.
+
+In italiano i segni diacritici sono due: la h e la i.
+
+• L’h compare nei gruppi che, chi e ghe, ghi per distinguerne la pronuncia da quella dei gruppi ce, ci e ge, gi
+
+cheto / ceto, chicca / cicca
+
+ghetto / getto, ghiro / giro
+
+e in alcune voci dell’indicativo presente del verbo avere, per distinguerle da una serie di ➔omofoni
+
+io ho / o (congiunzione)
+
+tu hai / ai (preposizione articolata)
+
+lui, lei ha / a (preposizione semplice)
+
+loro hanno / anno (sostantivo)
+
+• La i compare nei gruppi cia, cio, ciu; gia, gio, giù; scia, scio, sciu; glia, glie, glio, gliu per distinguerne la pronuncia da quella dei gruppi ca, co, cu; ga, go, gu; sca, sco, scu; gla, gle, glo, glu
+
+ancia / anca, ciocco / cocco, ciucco / cucco
+
+giara / gara, mangio / mango, giusto / gusto
+
+sciala / scala, sciocca / scocca, prosciutto / discusso
+
+soglia / sigla, biglietto / inglese, luglio / inglobare, pagliuzza / glutine.
+
+DUBBI
+
+Ci sono casi in cui nella grafia si usa una i superflua, che non si pronuncia e non ha neanche una funzione diacritica:
+
+– in alcune parole in cui la i è il residuo di un’antica pronuncia
+
+cieco (➔accecare o acciecare?)
+
+cielo (anche per distinguerla dall’omofona celo ‘nascondo’)
+
+– in alcuni plurali di parole in ➔-cia, -gia, per influenza della grafia del singolare
+
+camicie, valigie
+
+– in alcune parole in cui la i si mantiene per influenza della grafia latina
+
+specie, fattispecie, effigie, superficie
+
+Non esiste, in casi come questi, una regola sicura: il modo migliore per non sbagliare è controllare la grafia nel dizionario;
+
+– nella 1a persona plurale dell’indicativo e del congiuntivo e nella 2a persona plurale del congiuntivo dei verbi con radice in nasale palatale gn (bagniamo, sogniate) in cui la i è superflua dal punto di vista fonetico e serve solo a ribadire graficamente la riconoscibilità delle desinenze -iamo, -iate dei verbi in ➔-gnare.
+
+STORIA
+
+Per l’h del verbo avere si parla di h etimologica, perché ha un modello nelle forme del verbo latino habere.
+
+Le forme ò (al posto di ho), ài (al posto di hai), à (al posto di ha), ànno (al posto di hanno), ancora in uso tra fine Ottocento e primi del Novecento, oggi sono grafie errate a tutti gli effetti. 
+
+
+------------------------------------------------------------------
+
+Divisione in sillabe
+
+ 
+
+La divisione delle parole è un'esigenza della lingua scritta imposta dai confini determinati dalle dimensioni della pagina. Per secoli la pratica di dividere le parole non è stata regolata e le soluzioni sono state pertanto diverse e prive di qualsiasi uniformità. È stato l'avvento della stampa a caratteri mobili che, insieme a una normalizzazione grafica, ha portato anche a una progressiva sistematizzazione dei criteri di divisione delle parole. Bisogna però arrivare al Novecento per avere un sistema convenzionale di regole di sillabazione: in particolare le norme che utilizziamo oggi sono state fissate nel 1969 dall'Ente Nazionale Italiano di Unificazione (norma UNI 6461-97) che è un'associazione privata che studia, elabora, approva e pubblica norme tecniche relative a tutti i settori industriali, commerciali e del terziario al fine di garantire uniformità ed efficienza. Le regole per la divisione in sillabe che possiamo trovare in ogni buona grammatica della lingua italiana seguono appunto le norme UNI.
+
+ 
+
+Per stabilire dei criteri di suddivisione delle parole si è ricorsi al concetto di sillaba che però è un'unità prosodica (relativa quindi ai suoni), tra l'altro di difficile e controversa definizione, tanto che molti studiosi di fonetica e di fonologia hanno persino proposto di farne a meno. Alla base quindi delle norme convenzionali che ciascuna lingua si è data per poter spezzare le parole nei testi scritti, c'è una mancanza di omogeneità degli oggetti trattati: il taglio delle parole quando si va a capo avviene sul piano della grafia, ma questa divisione si fonda su criteri che sono applicati a unità sonore di una natura non universalmente riconosciuta e definita (alcuni hanno parlato, a proposito della sillaba, di 'realtà psicologica').
+
+ 
+
+Anche per l'italiano, che ha una struttura sillabica relativamente semplice, non sempre l'applicazione delle regole risulta immediata e lineare. Probabilmente per questo motivo, la corretta divisione sillabica è una questione su cui la grammatica tradizionale ha sempre molto insistito. Questo atteggiamento ha d'altra parte favorito il persistere di una sorta di insicurezza per cui, al momento di andare a capo, gli scriventi possono essere assaliti dai dubbi più strani; e questo non solo di fronte a incontri sillabici particolari o in situazioni in cui gli spazi sono fortemente vincolati, ma anche in contesti ben definiti da quelle regole che tutti abbiamo imparato a scuola. A questo "sacro timore" di incorrere in errori fortemente censurati dall'insegnamento scolastico, possiamo aggiungere la dilagante disinvoltura che ha investito alcuni generi di scrittura: a cominciare dai giornali che, dall'avvento della composizione elettronica delle pagine, presentano talvolta divisioni a fin di rigo non rispondenti alla norma (giustificate solo da esigenze di spazio); ma più in generale possiamo indicare, come uno dei fattori di maggior cambiamento nelle abitudini scrittorie, l'uso di programmi di scrittura che prevedono una funzione automatica di scansione sillabica non sempre perfettamente in linea con le norme della sillabazione dell'italiano.
+
+ 
+
+Vediamo allora quali sono le regole per dividere correttamente le parole in italiano:
+
+ 
+
+    Una vocale iniziale seguita da una sola consonante costituisce una sillaba: e-la-bo-ra-re; a-lian-te; u-mi-do;i-do-lo; o-do-re, u-no.
+    Una consonante semplice forma una sillaba con la vocale seguente: da-do; pe-ra.
+    Non si divide mai un gruppo di consonanti formato da b, c, d, f, g, p, t, v + l oppure r: a-tle-ti-ca; bi-bli-co; bro-do; in-cli-to; cre-de-re; dro-me-da-rio; fle-bi-le; a-fri-ca-no; gla-di-o-lo; gre-co; pe-plo; pre-go; tre-no; a-vrà.
+    Non si divide mai un gruppo formato da s + consonante/i: o-stra-ci-smo; te-schio; co-sto-la; sco-iat-to-lo; co-stru-i-re; ca-spi-ta, stri-scio-ne.
+    Si dividono i gruppi costituiti da due consonanti uguali (tt, dd, ecc. e anche cq) e i gruppi consonantici che non sono ammessi ad inizio di parola (del tipo cn, lm, rc, bd, mb, mn, ld, ng, nd, tm): tet-to; ac-qua; ri-sciac-quo; cal-ma; ri-cer-ca; rab-do-man-te; im-bu-to; cal-do; in-ge-gne-re; quan-do; am-ni-sti-a; Gian-mar-co; tec-ni-co, a-rit-me-ti-ca.
+    Nei gruppi consonantici formati da tre o più consonanti (rst, ntr, ltr, rtr, btr) si divide prima della seconda consonante, anche in presenza di prefissi come inter-, trans-, iper-, sub-, super-: con-trol-lo, ven-tri-co-lo, al-tro, scal-tro, in-ter-sti-zio, tran-stel-la-re, i-per-tro-fi-co, sub-tro-pi-ca-le, su-per-cri-ti-ci-tà.
+
+ 
+
+Ma è l'incontro di vocali che fa sorgere i dubbi maggiori; in particolare bisogna sapere distinguere i casi in cui due vocali danno luogo a un dittongo dai casi invece in cui formano uno iato. Infatti quando siamo in presenza di un dittongo non possiamo dividere le due vocali, procedimento invece possibile in presenza di iato.
+
+ 
+
+Il dittongo è un gruppo costituito da una vocale preceduta da una semiconsonante (i, u, quindi le sequenze ia, ie, io, iu, ua, ue, uo, ui) o seguita da una semivocale (i, u, quindi le sequenze ai, ei, oi, ui, au, eu). La i e la u infatti nel sistema fonologico dell'italiano possono rappresentare anche due suoni che prevedono una durata molto più breve e un'articolazione leggermente diversa rispetto alle corrispondenti vocali, intermedia tra la vocale e la consonante. Nelle regole di divisione in sillabe i dittonghi non possono essere spezzati per cui sono corrette scansioni sillabiche come: au-gu-ri; au-to; vio-la; in-dia-no; pio-lo; lin-gua; que-sto; zai-no; piac-que; pie-no; se-die; rau-co; oc-chia-li; ma-te-ria-le; pin-gui-no; buo-no; eu-ro-pa; piu-ma; foi-ba.
+
+ 
+
+Si possono dividere invece i gruppi vocalici che formano uno iato, che si realizza di massima in tre casi: 1) se nessuna delle due vocali è i o u: quindi ma-e-stra; a-e-ro-pla-no; po-e-ta; pa-e-sag-gio; 2) se una delle due vocali è i tonica (cioè sulla quale cade l'accento di parola) o u tonica e l'altra è a, e, o, quindi  mí-e; bu-gí-a; scí-a; pa-ú-ra (in alcuni casi anche se la seconda vocale è una i o una u, quindi le sequenze iu o ui, come ad esempio in di-úr-no, su-í-no); 3) nelle composizioni, purché sia ancora ben definito il rapporto tra prefisso e base, del tipo ri-em-pi-re; ri-a-ve-re, ri-u-sa-re (solo in questi composti, lo iato si può produrre anche nell'incontro tra u e i).
+
+ 
+
+Ci sono però alcuni casi in cui la pronuncia può essere oscillante ed è quindi opportuno verificare di volta in volta (i dizionari riportano sempre la scansione sillabiche delle parole) se le sequenze vocaliche diano luogo a dittonghi o a iati. Un esempio classico, riportato spesso nelle grammatiche, è quello dei derivati del sostantivo via: se infatti via prevede la scansione vi-a (con la i vocale e quindi uno iato), i derivati come viale, viaggio, viandante ecc. tendono a essere pronunciati con la i semiconsonante e quindi a produrre un dittongo con conseguente divisione in sillabe via-le, viag-gio, vian-dan-te, ma fuor-vi-an-te; aggiungiamo tra i casi di pronuncia semivocalica e quindi di dittongo anche gra-tui-to, cir-cui-to (ma cir-cu-ì-to, participio passato di circuire). Altri esempi in cui invece si hanno pronunce vocaliche di i e u (e quindi iato) anche se atone, possono essere cru-en-to,  ri-tu-a-le, du-el-lo.
+
+ 
+
+Ultimo punto critico della scansione sillabica sono i gruppi formati da tre vocali che vanno distinti in due casi:
+ 
+
+    quando formano un trittongo, in cui si può avere l'incontro di una semiconsonante, una vocale e una semivocale (es. iai, iei, uoi, uai, uei), oppure di due semiconsonanti e una vocale (solo iuo che nell'italiano contemporaneo tende a passare a io: barcaiuolo>barcaiolo; aiuola>aiola). Anche i trittonghi, in questi casi, formano un'unica sillaba e non andrebbero spezzati, quindi quei, miei, puoi, suoi, buoi, guai sono monosillabi;
+    quando invece si tratta di una vocale seguita da un dittongo (es. aia, aio, aiu), si può andare a capo dopo la vocale, quindi ma-ia-le, cen-ti-na-io, a-iu-ta-re, pa-io-lo.
+
+A conclusione di questa disamina delle molte possibilità, ci pare opportuno dare poche indicazioni di massima: intervenire nella divisione delle parole solo quando strettamente indispensabile, evitare di lasciare in fondo o all'inizio del rigo parti di parola troppo brevi (un'unica sillaba o addirittura un'unica vocale) e, comunque, di fronte a un dubbio "insolubile" consultare un buon dizionario.
