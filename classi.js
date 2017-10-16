@@ -204,6 +204,11 @@ class Sillabazione {
                 else if (Lettera.isConsonante(this.testo[c + 1]) && (this.testo[c + 1] == this.testo[c + 2])) {
                     this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
                     c += 1;
+                }
+                // Caso in cui ci sono una vocale e due consonanti non doppie, diacritici o consonantici
+                else if (Lettera.isConsonante(this.testo[c + 1]) && Lettera.isConsonante(this.testo[c + 2]) && (this.testo[c + 1] != this.testo[c + 2]) && (this.testo[c + 1] != 's') && !Lettera.isGruppiConsonantici(this.testo[c + 1] + this.testo[c + 2]) && !Lettera.isGruppiDiacritici(this.testo[c + 1] + this.testo[c + 2])) {
+                    this.listaSillabe.push(this.testo[c] + this.testo[c + 1]);
+                    c += 1;
                 } else {
                     this.listaSillabe.push(this.testo[c]);
                 }
