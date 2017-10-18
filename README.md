@@ -1,7 +1,9 @@
 
 # Sillabazione
 
-### License MIT
+### Status
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/archistico/Sillabazione/license)
 
 ### arch. Emilie Rollandin
 
