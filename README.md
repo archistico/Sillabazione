@@ -3,7 +3,7 @@
 
 ### Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/archistico/Sillabazione/license)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/archistico/Sillabazione/master/license)
 
 ### arch. Emilie Rollandin
 
